@@ -10,6 +10,7 @@ En este laboratio se estara probando y documentando la seguridad de la zona desm
 ---
 ## Topología 
 
+<img width="995" height="596" alt="image" src="https://github.com/user-attachments/assets/a8c6f009-6bc5-4cc1-ab40-86f4404bf212" />
 
 
 ---
