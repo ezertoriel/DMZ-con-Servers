@@ -38,12 +38,9 @@ En este laboratio se estara probando y documentando la seguridad de la zona desm
 
 ## Direccionamiento IP
 
-	Publico				
-Nombres	Red	Mascara	Primera IP	Ultima IP	Broadcast
-Conexiones	10.0.0.0/24	255.255.255.0	10.0.0.1	10.0.0.254	10.0.0.255
-
-
 <img width="705" height="61" alt="image" src="https://github.com/user-attachments/assets/64cf4774-2f16-4565-a9f1-f30c39cca516" />
+
+<img width="705" height="103" alt="image" src="https://github.com/user-attachments/assets/88669a05-a7d2-497f-8012-4484c308fb34" />
 
 ---
 
