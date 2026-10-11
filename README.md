@@ -34,6 +34,8 @@ En este laboratio se estara probando y documentando la seguridad de la zona desm
 
 ## Políticas de seguridad aplicadas
 
+<img width="1366" height="631" alt="image" src="https://github.com/user-attachments/assets/7e4cfe68-51b8-44b2-b8d3-58c0d31f51c0" />
+
 
 ---
 
