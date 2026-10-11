@@ -1,5 +1,6 @@
 # DMZ-con-Servers
 
+El archivo ZIP contiene la topologia de PNETLAB
 ## Video Demostrativo
 
 ---
