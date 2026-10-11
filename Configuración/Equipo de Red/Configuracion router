@@ -1,1 +1,42 @@
 enable
+configure terminal
+hostname RED
+no ip domain-lookup
+dns-server 8.8.8.8
+enable secret Ezequiel
+interface fa0/0
+ip address 10.0.0.150 255.255.255.0
+description Conexion al ISP
+ip nat outside
+no shutdown
+exit
+interface fa1/0
+duplex full
+no shutdown
+exit
+
+interface fa1/0.10
+encapsulation dot1q 10
+ip address 172.8.63.1 255.255.255.128
+description Conexion VLAN 10
+ip nat inside
+no shutdown
+exit
+
+ip dhcp excluded-address 172.8.63.1 172.8.63.3
+
+ip dhcp pool VLAN-10-Usuario
+network 172.8.63.0 255.255.255.128
+dns-server 8.8.8.8
+default-router 172.8.63.1
+exit
+
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+
+access-list 5 permit 172.8.63.0 0.0.0.127 
+
+ip nat inside source list 5 interface fa0/0 overload
+
+exit
+write
+copy running-config startup-config
