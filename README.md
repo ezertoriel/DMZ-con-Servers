@@ -45,3 +45,10 @@ En este laboratio se estara probando y documentando la seguridad de la zona desm
 
 ---
 
+## Configuracion en las interfaces
+
+<img width="1366" height="604" alt="image" src="https://github.com/user-attachments/assets/291c7465-aada-42d6-be85-ea2ca79598e8" />
+
+---
+
+
